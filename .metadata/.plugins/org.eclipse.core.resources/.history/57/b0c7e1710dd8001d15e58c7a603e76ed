@@ -1,0 +1,23 @@
+package exam;
+
+/*
+ * +   1
+ * ++  12
+ * +++ 123
+ * ++++ 1234
+ * +++++ 12345
+ */
+public class Exam03 {
+	public static void main(String[] args) {
+		
+		String str = "";
+		
+		for(int i=0; i<5 ; i++) {
+			System.out.printf("%5s%n", str);
+			for(int j=0; j<i+1 ; j++) {
+		//		System.out.print(str);  
+			}
+			System.out.print("\n");
+		}
+	}
+}

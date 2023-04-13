@@ -1,0 +1,15 @@
+package exam;
+
+public class Exam08 {
+
+	public static void main(String[] args) {
+		
+		  int num = 12345;
+		  int sum = 0;
+		  
+		  System.out.println(num % 10);
+		   
+		   
+	}
+
+}

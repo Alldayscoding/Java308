@@ -1,0 +1,31 @@
+package test;
+
+import java.util.Scanner;
+
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);		
+		
+		System.out.println("국어 점수 : ");
+		int korScore = sc.nextInt();
+		
+		System.out.println("영어 점수 : ");
+		int engScore = sc.nextInt();
+		
+		System.out.println("영어 점수 : ");
+		int mathScore = sc.nextInt();
+		
+		int sum = korScore+engScore+mathScore;
+		float avg = (sum/3)f;
+		
+		System.out.println("총점 : " + sum + "\t평균 : " + avg);
+		
+	}
+
+}
+
+
+

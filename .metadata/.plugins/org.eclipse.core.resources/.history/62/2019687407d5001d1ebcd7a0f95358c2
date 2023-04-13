@@ -1,0 +1,19 @@
+package test;
+
+import java.util.Scanner;
+
+//Switch
+
+public class Exam09 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int random = (int)(Math.random()*3)+1;
+		
+		System.out.println(random);
+		System.out.println("1(가위), 2(바위), 3(보)");
+	}
+
+}

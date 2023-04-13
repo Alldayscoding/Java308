@@ -1,0 +1,18 @@
+package test;
+
+import java.util.Scanner;
+
+//Switch
+
+public class Exam09 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int random = (int)(Math.random()*10);
+		
+		System.out.println(random);
+	}
+
+}

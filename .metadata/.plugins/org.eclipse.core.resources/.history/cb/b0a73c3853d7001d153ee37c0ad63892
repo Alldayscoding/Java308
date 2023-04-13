@@ -1,0 +1,13 @@
+package exam01;
+
+public class Exam04 {
+
+	public static void main(String[] args) {
+		
+		{int k = 0;}
+		
+	System.out.println(k);
+		
+	}
+
+}

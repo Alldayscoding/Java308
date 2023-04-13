@@ -1,0 +1,17 @@
+package exam;
+
+public class Exam11 {
+
+	public static void main(String[] args) {
+		
+		int sum = 0;
+		int i = 100;
+		
+		do {
+			sum += i;
+			i++;
+		} while(i<=10);
+		
+		System.out.println("aaa");		
+	 }
+}

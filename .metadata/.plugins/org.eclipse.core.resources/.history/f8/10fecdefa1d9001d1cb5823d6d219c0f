@@ -1,0 +1,11 @@
+package exam;
+
+public class Exam02 {
+
+	public static void main(String[] args) {
+		
+		int [][] num = new int[5][5];
+		
+	}
+
+}

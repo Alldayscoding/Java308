@@ -1,0 +1,32 @@
+package exam;
+
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Exam05 {
+
+	public static void main(String[] args) {
+	
+	final int SIZE = 5;
+	final int MAX = 100;	
+	final int MIN = 10;
+	
+	int max, min; max = min = 0;
+	
+	int[] numArray = new int[SIZE];
+	
+	for (int i=0; i<SIZE; i++) {
+		numArray[i] = (int)(Math.random()*(MAX-MIN+1))+MIN; 
+		System.out.println(numArray[i]);
+		}
+		min = max = numArray[0];
+		for (int j=1; j<numArray.length; j++) {
+			if (max < numArray[j]) max = numArray[j];
+			else min = numArray[j];
+		}
+	System.out.println("max : " + max);
+	System.out.println("min : " + min);
+	}
+
+}

@@ -1,0 +1,19 @@
+package exam;
+
+public class Exam08 {
+
+	public static void main(String[] args) {
+		
+		  int num = 12345;
+		   int sum = 0;
+		   int length = (int)(Math.log10(num)+1);
+		   
+		   for(int i = 0; i < length ; i++) {
+		      sum += num % 10;
+		      
+		      num /= 10;
+		   }
+		   System.out.println("sum = "+sum);
+	}
+
+}

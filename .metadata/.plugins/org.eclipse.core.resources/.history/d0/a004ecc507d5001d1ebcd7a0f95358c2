@@ -1,0 +1,38 @@
+package test;
+
+import java.util.Scanner;
+
+//Switch
+
+public class Exam09 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		for (int i = 0; i < 6; i++) {
+		int random = (int)(Math.random()*45)+1;
+			System.out.println(i);
+		}
+		
+		System.out.println(random);
+		System.out.println("1(가위), 2(바위), 3(보)");
+		
+		
+		int user = sc.nextInt();
+		switch (user-random) { 
+		case 0 :
+			System.out.println("비김");
+			break;
+		case -2 :
+			System.out.println("비김");
+			break;
+		case 1 :
+			System.out.println("이김");
+			break;
+		default :
+		}
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package test;
+
+import java.util.Scanner;
+
+public class Exam11 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		/* 문제 #1
+		int num = sc.nextInt();
+		
+		if (num > 50) System.out.println("50이상");
+		else System.out.println("50미만");
+		*/
+		
+		/* 문제 #2
+		int num = sc.nextInt();
+		if (num%3 == 0) System.out.println("3의 배수입니다");
+		else System.out.println("3의 배수가 아니야");
+		*/
+		
+		/* 문제 #3*/
+		System.out.print("학년을 선택하세요>>");
+		int grade = sc.nextInt();
+		
+		System.out.print("점수를 입력하세요>>");
+		int scor = sc.nextInt();
+		
+		if (grade == 4) {
+			if (scor >= 70) {
+				System.out.println("합격");
+			} else System.out.println("불합격");
+		}
+		
+		else {
+			if(scor >= 60 ) {
+				System.out.println("합격");
+			} else System.out.println("불합격");
+		}
+		
+	}
+}

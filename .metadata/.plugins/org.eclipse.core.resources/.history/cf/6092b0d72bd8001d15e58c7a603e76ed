@@ -1,0 +1,23 @@
+package exam;
+
+public class Exam08 {
+
+	public static void main(String[] args) {
+		
+		int num = 71;
+		int num2 = 712;
+		int sum = 0;
+		
+		int temp = (int) ((int)num * 0.1));
+		System.out.println(temp);
+		
+		
+//		String temp = String.valueOf(num);
+//				
+//		for (int i = 0; i<temp.length(); i++) 
+//			sum += (temp.charAt(i) - '0');
+//			
+//		System.out.println(sum);
+	}
+
+}

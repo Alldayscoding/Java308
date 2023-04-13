@@ -1,0 +1,16 @@
+package exam;
+
+public class Exam07 {
+
+	public static void main(String[] args) {
+		
+		for (int i =0; i<7 ; i++) {
+			
+			int num = (int)Math.random();
+			
+			System.out.println(num);
+		}
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package exam;
+
+public class Exam02 {
+
+	public static void main(String[] args) {
+		int[] iArr = {100, 90, 80, 70, 60};
+		
+		System.out.println(iArr);
+	}
+
+}

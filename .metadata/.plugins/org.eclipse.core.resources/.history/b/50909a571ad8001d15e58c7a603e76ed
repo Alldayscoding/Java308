@@ -1,0 +1,16 @@
+package exam;
+
+public class Exam06 {
+
+	public static void main(String[] args) {
+
+		while(true) {
+			
+			System.out.println("(1) square \n (2) square root \n (3) log");
+			
+		}
+			
+
+	}
+
+}

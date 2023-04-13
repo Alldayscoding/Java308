@@ -1,0 +1,19 @@
+package exam;
+
+public class Exam08 {
+
+	public static void main(String[] args) {
+		
+		int[] stu = new int[5];
+		
+		for(int i=0; i<stu.length; i++) {
+			stu[i] = i+1;
+		}
+		
+		
+		
+		
+		System.out.println();
+	}
+
+}

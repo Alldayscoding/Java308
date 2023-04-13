@@ -1,0 +1,24 @@
+package exam;
+
+/*
+ * +   1
+ * ++  12
+ * +++ 123
+ * ++++ 1234
+ * +++++ 12345
+ */
+public class Exam03 {
+
+	String spc = "";
+
+	public static void main(String[] args) {
+		for(int i=0; i<5 ; i++) {
+			System.out.printf("[5s]n", spc);
+			for(int j=0; j<i+1 ; j++) {
+				char str = '+';
+				System.out.print(str);  
+			}
+			System.out.print("\n");
+		}
+	}
+}

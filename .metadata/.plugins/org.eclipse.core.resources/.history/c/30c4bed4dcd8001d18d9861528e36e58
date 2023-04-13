@@ -1,0 +1,26 @@
+package exam;
+
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Exam04 {
+
+	public static void main(String[] args) {
+	
+	final int SIZE = 10;
+	final int MAX = 50;	
+	final int MIN = 2;
+	
+	int[] numArray = new int[SIZE];
+	
+	
+	for (int i=0; i<SIZE; i++) {
+		numArray[i] = (int)Math.random()*(MAX-MIN+1)+MIN; 
+		System.out.println(numArray[i]);
+		
+	}
+		System.out.println(Array.getInt(numArray, 0));
+	}
+
+}

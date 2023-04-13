@@ -1,0 +1,22 @@
+package exam01;
+
+//1~10까지 합을 누적
+
+public class Exam01 {
+
+	public static void main(String[] args) {
+	
+	}
+	
+	int i = 0;
+	
+	while(i < 1) {
+		System.out.println("성별을 선택하세요:");
+		System.out.println("1.남자");
+		System.out.println("2.여자");
+		System.out.println("3.군인");
+		System.out.println("4.외계인");
+
+	}
+		
+}

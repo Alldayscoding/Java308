@@ -1,0 +1,26 @@
+package test;
+import java.util.Scanner;
+
+
+//성별, 나이 ===> 성별 : 남, 나이 20세 이상이면 군대 간다...... 아니면 안간다.
+
+public class Exam08 {
+
+	public static void main(String[] args) {
+				
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("성별을 선택해주세요");
+		
+		String 성별 = sc.nextLine();
+		System.out.println(성별);
+
+		if (성별.equals("남") {			
+			System.out.println("같아요");
+		} else
+			System.out.println("달라요");
+			
+			
+		
+	}
+}

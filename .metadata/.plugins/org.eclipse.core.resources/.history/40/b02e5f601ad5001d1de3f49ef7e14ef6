@@ -1,0 +1,67 @@
+package test;
+
+import java.util.Scanner;
+
+public class Exam11 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		/* 문제 #1
+		int num = sc.nextInt();
+		
+		if (num > 50) System.out.println("50이상");
+		else System.out.println("50미만");
+		*/
+		
+		/* 문제 #2
+		int num = sc.nextInt();
+		if (num % 3 == 0) System.out.println("3의 배수입니다");
+		else System.out.println("3의 배수가 아니야");
+		*/
+		
+		/* 문제 #3
+		System.out.print("학년을 선택하세요>>");
+		int grade = sc.nextInt();
+		
+		System.out.print("점수를 입력하세요>>");
+		int score = sc.nextInt();
+		
+		if (grade == 4) {
+			if (score >= 70) {
+				System.out.println("합격");
+			} else System.out.println("불합격");
+		}
+		
+		else {
+			if(score >= 60 ) {
+				System.out.println("합격");
+			} else System.out.println("불합격");
+		}
+		*/
+		
+		//문제 #4
+		System.out.print("3개 정수값을 입력하세요 선택하세요>>");
+		
+		int a = sc.nextInt(); //2
+		int b = sc.nextInt(); //7
+		int c = sc.nextInt(); //4
+		
+		int min= 0, max= 0, avg, sum;
+		
+		if (a < b && a < c) {
+			min = a;
+			if (b < c) max = c;
+		}
+		
+		if (a > b && a > c) {
+			max = a;
+			if (b > c) min = c;
+		}
+		
+		
+		System.out.printf("최대값 : %d \t 최소값 : %d", max, min);	
+		System.out.println();	
+		System.out.printf("더한값 : " + (a+b+c));	
+		System.out.printf("평균값 : " + (a+b+c)/3);	
+	}
+}

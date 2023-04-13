@@ -1,0 +1,14 @@
+package exam01;
+
+//1~10까지 합을 누적
+
+public class Exam01 {
+
+	public static void main(String[] args) {
+		
+		final int NUM = 100;
+		for (int i=1; i<NUM+1; i++)
+			if (i % 2 ==0 && i % 3 ==0) System.out.println("해당 값은 2 와 3의 배수 입니다 : " + i);
+	}
+
+}
